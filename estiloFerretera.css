@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    background: rgb(82, 76, 70);
+}
+
+body{
+    font-family: 'Arial',sans-serif;
+    font-size: 16px;
+    background: rgb(82, 76, 70);
+}
+
+a{
+    text-decoration: none;
+}
+.contenedor{
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    overflow: hidden;
+
+}
+
+h2{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: rgba(8, 8, 8, 0.726);
+}
+
+.barra__buscador{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.formulario{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+form .input__text{
+    width: 100%;
+    border: 1px solid rgba(10, 10, 10, 0.384);
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #0d0e0f;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    max-width: 30%;
+    margin-right: 10px;
+    outline: medium none;
+}
+
+
+form .input__text:focus{
+    border: 1px solid #112016;
+}
+form .form-group{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+form .form-group .input__text{
+    max-width: 45% !important;
+}
+
+
+form .btn{
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: rgba(15, 15, 15, 0.904);
+    display: block;
+    font-size: 14px;
+    background: rgb(5, 128, 252);
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    outline: medium none;
+    cursor: pointer;
+}
+.btn__nuevo{
+    float: right;
+    background: #12942ebb !important;
+}
+
+.btn__group{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.btn__primary{
+    background: rgb(107, 138, 24);
+}
+.btn__danger{
+    background: #8a0505 !important;
+}
+
+
+/* table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table .head{
+    background: rgb(20, 12, 0);
+}
+table .head td{
+    color: #fff;
+    font-family: 'Arial',sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+table tr td{
+    border:1px solid rgb(8, 8, 8);
+    padding: 7px;
+    font-size: 14px;
+    color: rgb(10, 10, 10);
+   
+}
+
+.btn__update{
+    display: inline-block;
+    font-size: 14px;
+    background: #2b1b74;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn__delete{
+    display: inline-block;
+    font-size: 14px;
+    background: #8a0505;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
